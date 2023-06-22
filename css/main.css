@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0810b2;
+  background-color: #119c62;
+}
+
+#banner {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  background-color: #119c62;
+  padding: 20px;
+}
+
+.navigation {
+  text-align: center;
+  font-family: 'Covered By Your Grace', sans-serif;
+
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.navigation a {
+  color: #b20819;
+}
+
+#banner2 {
+  position: relative;
+  width: 47%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#banner2 p {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 35px;
+  text-align: center;
+  color: ghostwhite;
+}
+
+footer {
+  background-color: #119c62;
+  padding: 20px;
+  text-align: left;
+  font-size: 20px;
+}
+section { 
+  display: block;
+}
+#bannerbio {
+  width: 50%;
+  float: right;
+}
+
+article {
+  width: 50%;
+  text-align: right;
+}
+
+#bio {
+  display:flexbox
+  
+}
+#bio h1 {
+  text-align: right;
+}
+
+table {
+  height: 40%;
+  left: 10%;
+  margin: 20px auto;
+  position: static;
+  width: 80%;
+}
+
+thead th {
+  background: #d3c030f8;
+  color: #5f361ae0;
+  font-family: 'Trebuchet MS', Arial;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+tr {
+  background: #a84135;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+th, td {
+  font-family: 'Trebuchet MS', Arial;
+  font-weight: 400;
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+}
+#multimedia {
+  align-content: center;
+  text-align: center;
+}
+
+form {
+  width: 50%;
+  float:right ;
+}

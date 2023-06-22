@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Costurero Mágico de ELENA</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Raleway:100,500,600,800' rel='stylesheet'>
+</head>
+
+<body>
+    <div id="banner" class="banner"><img src="images/bannertitulo.jpg" alt="el costurero magico de elena"></div>
+    <header>
+        <h1>
+
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">PRINCIPAL</a></li>
+                <li><a href="biografia.html">QUIÉNES SOMOS</a></li>
+                <li><a href="portfolio.html">ARREGLOS</a></li>
+                <li>SOLICITA PRESUPUESTO</li>
+            </ul>
+        </nav></h1>
+    </header>
+    <form action="enviar.php" method="post">
+        <h2>Reserva tu tiempo de arreglo:</h2>
+        <fieldset>
+            <legend>Sobre tí:</legend>
+            <div class="formfield">
+                <label for="firstname">Nombre:</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Nombre propio">
+            </div>
+
+            <div class="formfield">
+                <label for="lastname">Apellidos:</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Primer apellido">
+            </div>
+
+            <div class="formfield">
+                <label>Sexo:</label>
+                <label for="male">Masculino</label>
+                <input type="radio" id="male" name="sex" value="male">
+
+                <label for="female">Femenino</label>
+                <input type="radio" id="female" name="sex" value="female">
+
+                <label for="other">Prefiero omitirlo</label>
+                <input type="radio" id="other" name="sex" value="omission">
+            </div>
+
+            <div class="formfield">
+                <label for="about">Escribe sobre tus medidas y complexión:</label>
+                <textarea id="about" name="about" cols="90" rows="10"
+                    placeholder="Medidas, complexión, preferencias de tallaje"></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos de contacto y reserva de tiempo:</legend>
+            <div class="formfield">
+                <label for="date">Fecha:</label>
+                <input type="date" id="date" name="date">
+            </div>
+
+            <div class="formfield">
+                <label for="time">Hora desde:</label>
+                <input type="time" id="time" name="time">
+                <label for="time">Hasta(aprox):</label>
+                <input type="time" id="time2" name="time2">
+            </div>
+
+            <div class="formfield">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="cliente@dominio.com">
+            </div>
+
+            <div class="formfield">
+                <label for="phone">Teléfono:</label>
+                <input type="tel" id="phone" name="phone" placeholder="xxx-xxx-xxx">
+            </div>
+        </fieldset>
+
+        <div class="formactions">
+            <input type="reset" value="Borrar">
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+    <div id="neptuno"><img src="images/neptuno-puerta3.jpg" alt="centro comercial neptuno en granada"></div>
+    <footer>
+        <p> Prefieres contacto directo? LLama al +34 669 655 073, y ELENA te ofrecerá trato personalizado.</p>
+    </footer>
+</body>
+
+</html>
